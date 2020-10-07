@@ -1,0 +1,26 @@
+package latihanalgoritmadanpemrograman;
+
+import java.util.Scanner;
+
+public class Latihan2NilaiHuruf {
+        public static void main(String[] args) { 
+        Scanner inp = new Scanner(System.in);
+
+        System.out.print("Masukkan Nilai Mata Kuliah= "); 
+        int nilai = inp.nextInt();
+        
+    if(nilai <= 55) { 
+        System.out.println("Nilainya E");
+    }else if(nilai <= 65) { 
+        System.out.println("Nilainya D");
+    }else if(nilai <= 75) { 
+        System.out.println("Nilainya C");
+    }else if(nilai <= 85) {
+        System.out.println("Nilainya B");
+    }else if(nilai <= 100) {
+        System.out.println("Nilainya A");
+    }else if(nilai < 0 ) {
+        System.out.println("Nilainya Error");
+    }else if(nilai > 100) {
+        System.out.println("Nilainya Error");
+    }
