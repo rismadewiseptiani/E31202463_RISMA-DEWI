@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class LatihanAlgoritmadanPemrograman {
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+        // Buat Scanner
+        Scanner inp = new Scanner(System.in);
+
+	// Ambil Nama 
+        System.out.print("Masukan nama anda =");
+	String nama = inp.next();
+        // Ambil NIM 
+        System.out.print("Masukan NIM anda =");
+        String nim = inp.next();
+
+        // Ambil Nilai 
+        System.out.print("Masukkan Nilai = "); 
+        int nilai = inp.nextInt();
+
+        // Print
+        if(nilai > 60) { System.out.println("Selamat Anda lulus ");
+        } else {
+        System.out.println("Anda tidak lulus ");
+        }
+
+
+    }
+    
+}
